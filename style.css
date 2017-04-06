@@ -1,0 +1,381 @@
+/*
+Theme Name: Dina Nelson (2017)
+Theme URI: http://wordpress.org/themes/twentythirteen
+Author: Battle Branding
+Author URI: http://wordpress.org/
+Description:
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: dina-nelson
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 1em;
+	line-height: 1.375em;
+}
+h1 {
+	font-size: 3em;
+	line-height: 1.05em;
+	font-weight: 700;
+}
+h2 {
+	font-size: 2.25em;
+	line-height: 1.25em;
+	margin: 0 0 40px 0;
+	font-weight: 300;
+}
+h3 { font-size: 1.75em; }
+h4 { font-size: 1.125em; }
+p {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	font-size: 1.25em;
+	line-height: 1.375em;
+	margin-bottom: 1em;
+}
+p.statement {
+	font-size: 1.25em;
+	font-weight: 200;
+}
+
+ul.menu {
+	text-align: left;
+	list-style: none;
+}
+ul.menu.horizontal li {
+	display: inline-block;
+	line-height: 48px;
+}
+ul.menu.horizontal li a {
+	padding: 0 10px;
+}
+
+a {
+	display: inline-block;;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+section {
+	background-color: #fff;
+	margin: 0 auto;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 90px;
+}
+
+.col {
+	display: block;
+	margin: 0 auto;
+}
+.col.col-grid {
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+	display: table;
+}
+.col.col-grid:after {
+	content: " ";
+	display: table;
+	clear: both;
+}
+.col.col-grid .col {
+	display: table-cell;
+	vertical-align: middle;
+}
+.col.col-grid-text .col {
+	vertical-align: top;
+}
+.col.col-grid.three-columns .col {
+	width: 33.3333333333%;
+	/*padding: 0 20px;*/
+}
+.col.col-grid.two-columns .col {
+	width: 50%;
+	padding: 0 20px;
+}
+.col.col-grid.three-columns.two-to-one .col {
+	width: 25%;
+}
+.col.col-grid.three-columns.two-to-one .col:nth-of-type(2) {
+	width: 50%;
+}
+
+.item {
+	display: block;
+	width: 100%;
+}
+
+
+.button,
+button {
+	background-color: #222;
+	color: #eee;
+	padding: 10px 40px;
+	font-size: .75em;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-weight: 600;
+	min-width: 150px;
+	text-align: center;
+	border: none;
+	cursor: pointer;
+}
+.button.rounded {
+	border-radius: 25px;
+}
+
+.item {
+	display: block;
+}
+.item-text {
+	max-width: 600px;
+	margin: 0 auto;
+}
+.item-button span.footnote {
+	display: block;
+	margin-top: 1em;
+	text-transform: uppercase;
+	font-size: .60em;
+	letter-spacing: 1px;
+	font-weight: 600;
+}
+
+.item-space {
+	height: 40px;
+}
+.item-image img {
+	max-width: 100%;
+}
+
+@media only screen and (max-width: 500px) {
+
+	section {
+		padding: 0;
+	}
+
+	.col.col-grid,
+	.col.col-grid .col {
+        display: block;
+    }
+
+	.col.col-grid.three-columns .col,
+	.col.col-grid.three-columns.two-to-one .col,
+	.col.col-grid.two-columns .col {
+		width: 100%;
+		padding: 20px;
+	}
+
+	.col {
+		padding: 20px;
+	}
+
+}
+
+/** Section Styles **/
+h1, h2, h3 {
+	font-family: 'PT Serif', serif;
+}
+
+h3 {
+	font-weight: 300;
+}
+h4 {
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-bottom: 1em;
+}
+ul.menu {
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	letter-spacing: 1px;
+	font-size: .75em;
+}
+ul.menu.centered {
+	text-align: center;
+}
+
+.button {
+	font-family: 'Montserrat', sans-serif;
+}
+.item-button span.footnote {
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+#header {
+	background-color: #ede3e1;
+	background-image: url('assets/images/young-black-girl-with-pearls.jpg');
+	padding: 20px 90px 0;
+	color: #9E1E4C;
+	max-height: 741px;
+}
+#header a {
+	color: #9E1E4C;
+}
+#header .logo {
+	font-size: 1.75em;
+}
+#header .button {
+	background-color: #cc3031;
+	color: #fff;
+	font-size: inherit;
+}
+
+#my-book {
+	background-color: #86b8b1;
+	background-image: url('assets/images/pink-double-bar-background.jpg');
+	color: #fff;
+}
+#my-book .button {
+	background-color: #f5c748;
+	color: #9E1E4C;
+}
+#my-book .footnote {
+	color: #3b3d40;
+}
+
+#dont-fit-quote {
+	background-color: #a30000;
+	background-image: url('assets/images/blue-puzzle-background.jpg');
+	color: #fff;
+}
+
+#services {
+	background-color: #eeeeee;
+	color: #5f334d;
+}
+#services h2 {
+	color: #5f334d;
+}
+#services h4 {
+	color: #cc3031;
+}
+
+#greatness {
+	background-color: #e7d2a2;
+	background-image: url('assets/images/guy-and-girl-dressed-for-date.jpg');
+	color: #3d1c00;
+}
+#greatness .button {
+	background-color: #cc3031;
+	color: #fff;
+}
+
+#my-story {
+	background-color: #9E1E4C;
+	color: #fff;
+}
+
+
+#footer {
+	background-color: #242526;
+	/*color: #86b8b1;*/
+	padding: 20px 90px;
+}
+#footer .item-text {
+	color: #edd7a8;
+	max-width: inherit;
+	border-top: 2px solid #333435;
+	padding-top: 30px;
+}
+#footer a {
+	color: #fff;
+}
+#footer ul.menu.horizontal li {
+	line-height: 28px;
+}
+
+#footer p {
+	font-family: 'PT Serif', serif;
+	font-size: 1em;
+}
+#footer .col-grid:first-of-type {
+	padding-bottom: 20px;
+}
+
+#copyright {
+	background-color: #191a1b;
+	color: #999999;
+	padding: 20px 90px;
+}
+#copyright p {
+	margin: 0;
+	font-size: .75em;
+}
+
+/** Pink Layout **/
+#header .button {
+	background-color: #FF1168;
+	color: #fff;
+	font-size: inherit;
+}
+
+#services h2 {
+	color: #FF1168;
+}
+
+#services h4 {
+	color: #9E1E4C;
+}
+
+#greatness .item-title {
+	color: #fff;
+}
+
+#greatness .button {
+	background-color: #FF1168;
+}
+.item-title strong {
+	font-style: italic;
+}
+
+@media only screen and (max-width: 480px) {
+
+	#header {
+		padding: 20px 0;
+		max-height: none;
+	}
+
+	.logo {
+		margin-bottom: 25px;
+	}
+
+	#footer {
+		padding: inherit;
+	}
+
+	#footer h3 {
+		font-size: 1em;
+	}
+
+	#space {
+		display: none;
+	}
+
+	#header .col {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+
+	.col-grid {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+
+}
