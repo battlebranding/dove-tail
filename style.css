@@ -1,381 +1,270 @@
 /*
-Theme Name: Dina Nelson (2017)
-Theme URI: http://wordpress.org/themes/twentythirteen
+Theme Name: Dovetail (2017)
 Author: Battle Branding
-Author URI: http://wordpress.org/
-Description:
+Author URI: http://battlebranding.com
 Version: 1.0
-License: GNU General Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
-Text Domain: dina-nelson
-
-This theme, like WordPress, is licensed under the GPL.
-Use it to make something cool, have fun, and share what you've learned with others.
 */
 
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-
 body {
-	font-size: 1em;
-	line-height: 1.375em;
-}
-h1 {
-	font-size: 3em;
-	line-height: 1.05em;
-	font-weight: 700;
-}
-h2 {
-	font-size: 2.25em;
-	line-height: 1.25em;
-	margin: 0 0 40px 0;
-	font-weight: 300;
-}
-h3 { font-size: 1.75em; }
-h4 { font-size: 1.125em; }
-p {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 300;
-	font-size: 1.25em;
-	line-height: 1.375em;
-	margin-bottom: 1em;
-}
-p.statement {
-	font-size: 1.25em;
-	font-weight: 200;
+	font-family: 'Maven Pro', sans-serif;
+	color: #3f4040;
+	background-color: #eeeeee;
 }
 
-ul.menu {
-	text-align: left;
-	list-style: none;
+h1 {
+	font-family: 'Voltaire', sans-serif;
+	text-transform: uppercase;
 }
-ul.menu.horizontal li {
-	display: inline-block;
-	line-height: 48px;
+
+h2 {
+	font-family: 'Voltaire', sans-serif;
 }
-ul.menu.horizontal li a {
-	padding: 0 10px;
+
+p {
+	font-family: 'Maven Pro', sans-serif;
+}
+
+.button {
+	border-top-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	transition: background-color 0.5s ease;
+}
+.button.yellow {
+	background-color: #f8ca33;
+	color: #333;
+	font-weight: bold;
+}
+.button.yellow:hover {
+	background-color: #3f4040;
+	color: #fff;
 }
 
 a {
-	display: inline-block;;
-	text-decoration: none;
-	cursor: pointer;
+	transition: color 0.25s ease,
+		background-color 0.25s ease;
 }
 
-section {
-	background-color: #fff;
-	margin: 0 auto;
-	text-align: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	padding: 90px;
-}
-
-.col {
-	display: block;
-	margin: 0 auto;
-}
-.col.col-grid {
-	width: 100%;
-	display: block;
-	margin: 0 auto;
-	display: table;
-}
-.col.col-grid:after {
-	content: " ";
-	display: table;
-	clear: both;
-}
-.col.col-grid .col {
-	display: table-cell;
-	vertical-align: middle;
-}
-.col.col-grid-text .col {
-	vertical-align: top;
-}
-.col.col-grid.three-columns .col {
-	width: 33.3333333333%;
-	/*padding: 0 20px;*/
-}
-.col.col-grid.two-columns .col {
-	width: 50%;
-	padding: 0 20px;
-}
-.col.col-grid.three-columns.two-to-one .col {
-	width: 25%;
-}
-.col.col-grid.three-columns.two-to-one .col:nth-of-type(2) {
-	width: 50%;
-}
-
-.item {
-	display: block;
-	width: 100%;
-}
-
-
-.button,
-button {
-	background-color: #222;
-	color: #eee;
-	padding: 10px 40px;
-	font-size: .75em;
-	letter-spacing: 1px;
-	text-transform: uppercase;
-	font-weight: 600;
-	min-width: 150px;
-	text-align: center;
-	border: none;
-	cursor: pointer;
-}
-.button.rounded {
-	border-radius: 25px;
-}
-
-.item {
-	display: block;
-}
-.item-text {
-	max-width: 600px;
-	margin: 0 auto;
-}
-.item-button span.footnote {
-	display: block;
-	margin-top: 1em;
-	text-transform: uppercase;
-	font-size: .60em;
-	letter-spacing: 1px;
-	font-weight: 600;
-}
-
-.item-space {
-	height: 40px;
-}
-.item-image img {
-	max-width: 100%;
-}
-
-@media only screen and (max-width: 500px) {
-
-	section {
-		padding: 0;
-	}
-
-	.col.col-grid,
-	.col.col-grid .col {
-        display: block;
-    }
-
-	.col.col-grid.three-columns .col,
-	.col.col-grid.three-columns.two-to-one .col,
-	.col.col-grid.two-columns .col {
-		width: 100%;
-		padding: 20px;
-	}
-
-	.col {
-		padding: 20px;
-	}
-
-}
-
-/** Section Styles **/
-h1, h2, h3 {
-	font-family: 'PT Serif', serif;
-}
-
-h3 {
-	font-weight: 300;
-}
-h4 {
-	font-family: 'Montserrat', sans-serif;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	margin-bottom: 1em;
-}
-ul.menu {
-	text-transform: uppercase;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 700;
-	letter-spacing: 1px;
-	font-size: .75em;
-}
 ul.menu.centered {
 	text-align: center;
 }
 
-.button {
-	font-family: 'Montserrat', sans-serif;
-}
-.item-button span.footnote {
-	font-family: 'Montserrat', sans-serif;
+section#header {
+	padding: 15px;
+	color: #666;
+	border-bottom: 1px solid #bbbbbb;
+	background-color: #fff;
 }
 
+section#header p {
+	margin-bottom: 0;
+}
 
-#header {
-	background-color: #ede3e1;
-	background-image: url('assets/images/young-black-girl-with-pearls.jpg');
-	padding: 20px 90px 0;
-	color: #9E1E4C;
-	max-height: 741px;
+section#header h1#logo {
+	letter-spacing: 25px;
+	font-size: 32px;
+	color: #3f4040;
 }
-#header a {
-	color: #9E1E4C;
+
+section#header .menu a {
+	color: #666;
+	border-top-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	padding: inherit 20px;
 }
-#header .logo {
-	font-size: 1.75em;
-}
-#header .button {
-	background-color: #cc3031;
+
+section#header .menu a:hover {
 	color: #fff;
-	font-size: inherit;
+	background-color: #f8ca33;
 }
 
-#my-book {
-	background-color: #86b8b1;
-	background-image: url('assets/images/pink-double-bar-background.jpg');
+section {
+	background-color: transparent;
+	padding: 30px 0;
+}
+
+section#home-intro {
+	background-color: transparent;
+}
+
+section#home-intro h1,
+section#home-intro h2 {
+	text-transform: none;
+	letter-spacing: 1px;
+}
+
+section#home-intro .fa {
+	color: #f8ca33;
+}
+
+section#home-intro a:hover {
+	background-color: #f8ca33;
 	color: #fff;
 }
-#my-book .button {
-	background-color: #f5c748;
-	color: #9E1E4C;
-}
-#my-book .footnote {
-	color: #3b3d40;
-}
-
-#dont-fit-quote {
-	background-color: #a30000;
-	background-image: url('assets/images/blue-puzzle-background.jpg');
-	color: #fff;
-}
-
-#services {
-	background-color: #eeeeee;
-	color: #5f334d;
-}
-#services h2 {
-	color: #5f334d;
-}
-#services h4 {
-	color: #cc3031;
-}
-
-#greatness {
-	background-color: #e7d2a2;
-	background-image: url('assets/images/guy-and-girl-dressed-for-date.jpg');
-	color: #3d1c00;
-}
-#greatness .button {
-	background-color: #cc3031;
+section#home-intro a:hover .fa {
 	color: #fff;
 }
 
-#my-story {
-	background-color: #9E1E4C;
+section#home-intro .col-grid {
+	background-image: url('assets/images/sayagata-bg.png');
+	background-size: auto;
+}
+
+section#home-intro .col-grid .col:first-of-type {
+	border-top: 30px solid #eeeeee;
+	border-bottom: 30px solid #eeeeee;
+}
+
+section#home-intro #board-room {
+	background-image: url('assets/images/board-room-yellow.jpg');
+	padding: 40px 150px;
+	background-size: cover;
+	height: 500px;
+}
+
+section#home-quote {
+	padding: 0;
+	background-color: transparent;
+}
+
+section#home-quote h2 {
+	font-family: 'Maven Pro', sans-serif;
+	text-transform: inherit;
+}
+
+section#home-quote .left {
+	background-color: #f8ca33;
+	padding: 30px;
+}
+section#home-quote .left a {
+	color: inherit;
+}
+section#home-quote .left a:hover {
+	background-color: #fff;
+}
+
+section#home-quote col.right {
+	text-align: center;
+}
+
+section#home-dinner {
+	padding-right: 150px;
+}
+
+section#home-campaigns {
+	background-image: url('assets/images/sayagata-bg.png');
+	background-size: auto;
+	background-repeat: repeat;
+	padding: 30px 150px 0;
 	color: #fff;
 }
 
+section#home-campaigns h2,
+section#home-campaigns a {
+	color: #f8ca33;
+}
 
-#footer {
-	background-color: #242526;
-	/*color: #86b8b1;*/
-	padding: 20px 90px;
+section#home-campaigns a:hover {
+	color: #fff;
+	text-decoration: underline;
+	text-decoration-color: #f8ca33;
 }
-#footer .item-text {
-	color: #edd7a8;
-	max-width: inherit;
-	border-top: 2px solid #333435;
-	padding-top: 30px;
+
+section#footer ul.menu.horizontal li {
+	line-height: inherit;
 }
-#footer a {
+
+section#footer a {
+	color: #000;
+}
+
+section.intro {
+	background-color: #fff;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	border-top: 5px solid #f8ca33;
+}
+section.intro > .col {
+	max-width: 600px;
+}
+section.quote {
+	background-color: #f8ca33;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	margin: 0 30px;
+}
+section.quote h2 {
+	font-family: 'Maven Pro', sans-serif;
+}
+section.quote > .col {
+	max-width: 960px;
+}
+section#about-quote {
+
+}
+section.content > .col {
+	max-width: 800px;
+}
+
+section#about-definition {
+	background-color: #3f4040;
+	padding: 0;
+}
+section#about-definition h2 {
+	color: #fbfacf;
+}
+section#about-definition .two-columns > .col {
+	padding: 80px;
+}
+section#about-definition .two-columns > .col:last-of-type {
+	background-image: url('assets/images/sayagata-bg.png');
+	background-size: auto;
+	background-repeat: repeat;
 	color: #fff;
 }
-#footer ul.menu.horizontal li {
-	line-height: 28px;
+section#services-lighted-event {
+	background-image: url('assets/images/lighted-event.jpg');
+	background-size: auto;
+	background-repeat: repeat;
+	min-height: 350px;
+	background-position: top;
+}
+.dove {
+	border-top-left-radius: 25%;
+	border-bottom-right-radius: 25%;
+}
+.item-shortcode .frs-slideshow-container {
+
+}
+.col-grid.two-columns p:only-child,
+.col-grid.three-columns p:only-child {
+	margin-bottom: 0;
 }
 
-#footer p {
-	font-family: 'PT Serif', serif;
-	font-size: 1em;
-}
-#footer .col-grid:first-of-type {
-	padding-bottom: 20px;
-}
+@media only screen and (max-width: 500px) {
 
-#copyright {
-	background-color: #191a1b;
-	color: #999999;
-	padding: 20px 90px;
-}
-#copyright p {
-	margin: 0;
-	font-size: .75em;
-}
-
-/** Pink Layout **/
-#header .button {
-	background-color: #FF1168;
-	color: #fff;
-	font-size: inherit;
-}
-
-#services h2 {
-	color: #FF1168;
-}
-
-#services h4 {
-	color: #9E1E4C;
-}
-
-#greatness .item-title {
-	color: #fff;
-}
-
-#greatness .button {
-	background-color: #FF1168;
-}
-.item-title strong {
-	font-style: italic;
-}
-
-@media only screen and (max-width: 480px) {
-
-	#header {
-		padding: 20px 0;
-		max-height: none;
-	}
-
-	.logo {
-		margin-bottom: 25px;
-	}
-
-	#footer {
-		padding: inherit;
-	}
-
-	#footer h3 {
-		font-size: 1em;
-	}
-
-	#space {
+	section#home-intro .col-grid .col:first-of-type {
 		display: none;
 	}
 
-	#header .col {
-		padding-top: 0;
-		padding-bottom: 0;
+	section#home-intro #board-room {
+		margin: 0;
+		width: 100%;
+		padding: 80px 20px;
 	}
 
-	.col-grid {
-		padding-top: 40px;
-		padding-bottom: 40px;
+	section#home-dinner {
+		padding-right: 0;
+	}
+
+	section#home-campaigns {
+		padding: 80px 20px;
+	}
+
+	section#footer .col.col-grid .col.right,
+	section#footer .col.col-grid .col.left {
+		text-align: center;
 	}
 
 }

@@ -41,69 +41,23 @@
 				</div>
 			</div>
 		</section>
-		<section id="home-intro">
-			<div class="col col-grid two-columns two-to-one">
-				<div class="col"></div>
-				<div id="board-room" class="col right">
-					<div class="item item-title">
-						<h1>Full Service Event Management</h1>
-						<h2>for corporations &amp; small businesses</h2>
-					</div>
-					<div class="item item-button">
-						<a href="<?php echo home_url('services') ?>" class="button">Learn More <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></a>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section id="home-quote">
-			<div class="col col-grid two-columns">
-				<div class="col left">
-					<div class="item item-text right">
-						<h2>Those who can't do, teach. Those who don't wed, plan. Those who won’t conform, manage.</h2>
-						<a href="<?php echo home_url('about#about-tiffany') ?>">- Tiffany Burnette, CEO <i class="fa fa-chevron-circle-right" aria-hidden="true"></i><a>
-					</div>
-				</div>
-				<div class="col right">
-					<div class="item item-image centered">
-						<img src="<?php echo get_template_directory_uri() . '/assets/images/dove-tail-logo-medium.png'; ?>" />
-					</div>
-				</div>
-			</div>
-		</section>
-		<section id="home-dinner">
-			<div class="col col-grid">
+		<section>
+			<div class="col">
 				<div class="item item-image">
-					<img src="<?php echo get_template_directory_uri() . '/assets/images/dt-dinner-bg.png'; ?>" />
+					<img src="<?php echo get_template_directory_uri() . '/assets/images/small-dovetail-logo.png'; ?>" />
 				</div>
-			</div>
-		</section>
-		<section id="home-solutions">
-			<div class="col col-grid">
 				<div class="item item-title">
-					<h2>Corporate Event Solutions</h2>
+					<h2>The first conversation makes the difference</h2>
 				</div>
 				<div class="item item-text">
-					<p>Our mission is to provide the highest quality services in a manner that captures your goals and minimizes stress throughout the event process.</p>
-				</div>
-				<div class="item item-button">
-					<a href="<?php echo home_url('contact') ?>" class="button yellow">Schedule A Consultation <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></a>
+					<p>The Dovetail experience begins with a conversation between both sides to understand what your goals are.</p>
 				</div>
 			</div>
 		</section>
-		<section id="home-campaigns">
-			<div class="col col-grid two-columns">
-				<div class="col">
-					<div class="item item-image left">
-						<img src="<?php echo get_template_directory_uri() . '/assets/images/dovetail-logo-silhouette.png'; ?>" class="bottom" style="max-height: 200px;" />
-					</div>
-				</div>
-				<div class="col right">
-					<div class="item item-title">
-						<h2>Custom Campaigns to Boost Morale</h2>
-					</div>
-					<div class="item item-text">
-						<p>Experience the reward of internal events catered to redefining your company’s culture. <a href="<?php echo home_url('services'); ?>">Learn More</a></p>
-					</div>
+		<section class="intro">
+			<div class="col">
+				<div class="item item-shortcode">
+					<?php echo do_shortcode('[ninja_form id=1]'); ?>
 				</div>
 			</div>
 		</section>
