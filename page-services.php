@@ -54,8 +54,24 @@
 		<section id="services-lighted-event"></section>
 		<section>
 			<div class="col">
-				<div class="item item-shortcode">
-					<?php echo do_shortcode('[pjc_slideshow slide_type="services"]'); ?>
+				<div class="item item-text">
+					<h2>Business Culture Impact Programs</h2>
+					<p>Brand awareness does not start and end with your external customer. Dovetail offers a set of culture focused programs that place an emphasis on internal customer centricity. If your desire is to increase employee moral and establish positive work mentality we have the option for you.</p>
+					<br />
+					<h2>Custom Event Creation</h2>
+					<p>When it comes to putting together a swanky event for prospective clients, current customers, vendors or employees we are your one stop shop. Full-service planning, from start to finish. Including:</p>
+					<p><ul class="left" style="margin-left: 30px;">
+						<li>Planning and production</li>
+						<li>Design and decor</li>
+						<li>Theme development</li>
+						<li>Execution</li>
+					</ul></p>
+					<br />
+					<h2>Entrepreneur Starter Kit</h2>
+					<p>Whether you are just getting started, or need help with creative ideas to rejuvenate your business model. We provide developmental tools to help stimulate the business model. Allow us to assist in fine tuning your entrepreneurship.</p>
+					<br />
+					<h2>Personal and Corporate Concierge</h2>
+					<p>There is only 24 hours in a day and never enough time to get everything done. Let Dovetail be the solution to all of your needs. We have the capability to take care of any task; employee moving &amp; relocation, organization services for your office,reservations, scheduling and coordination just to name a few.</p>
 				</div>
 			</div>
 		</section>

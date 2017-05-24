@@ -234,9 +234,22 @@ section#services-lighted-event {
 	border-top-left-radius: 25%;
 	border-bottom-right-radius: 25%;
 }
-.item-shortcode .frs-slideshow-container {
+section#services-list {
 
 }
+section#services-list .item.item-shortcode {
+	width: 800px;
+	margin: 0 auto;
+}
+section#services-list .accordion .accordion-title {
+	cursor: pointer;
+	outline: none;
+	padding: 10px 0;
+}
+section#services-list .accordion .accordion-content {
+	padding: 25px;
+}
+
 .col-grid.two-columns p:only-child,
 .col-grid.three-columns p:only-child {
 	margin-bottom: 0;
