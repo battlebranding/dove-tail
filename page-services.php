@@ -47,13 +47,17 @@
 					<img src="<?php echo get_template_directory_uri() . '/assets/images/small-dovetail-logo.png'; ?>" />
 				</div>
 				<div class="item item-title">
-					<h2>Events that impress customers and retain employees</h2>
+					<h2>Impress customers and retain employees</h2>
 				</div>
 			</div>
 		</section>
 		<section id="services-lighted-event"></section>
 		<section>
 			<div class="col">
+				<div class="item item-title">
+					<h1>What we offer</h1>
+					<p>&nbsp;</p>
+				</div>
 				<div class="item item-text">
 					<h2>Business Culture Impact Programs</h2>
 					<p>Brand awareness does not start and end with your external customer. Dovetail offers a set of culture focused programs that place an emphasis on internal customer centricity. If your desire is to increase employee moral and establish positive work mentality we have the option for you.</p>
@@ -108,8 +112,13 @@
 				</div>
 				<div class="col left">
 					<div class="item item-text">
-						<p>E-mail: <a href="mailto:tiffany@dove-tail.net">tiffany@dove-tail.net</a></p>
+						<p>E-mail: <a href="mailto:hello@dove-tail.net">hello@dove-tail.net</a></p>
 					</div>
+				</div>
+			</div>
+			<div class="col">
+				<div class="item item-text copyright">
+					<p>&copy; <?php date('Y'); ?> Dovetail, LLC. All rights reserved.</p>
 				</div>
 			</div>
 		</section>

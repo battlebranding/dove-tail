@@ -51,6 +51,7 @@
 				</div>
 				<div class="item item-text">
 					<p>Dovetail is an all-inclusive premier corporate management company, specializing in creating and executing unique events for local businesses and community members for all occasions.</p>
+					<p>We also offer task oriented services that allow business leaders to focus on their bottom line.</p>
 					<p>No task is too small, and no detail is less important. With this in mind, Dovetail offers a vast array of nostalgic writing and event pieces to help streamline each project and to promote a cohesive theme.</p>
 					<p>Let us join together your ideas and our determination to produce astounding results.</p>
 				</div>
@@ -113,8 +114,13 @@
 				</div>
 				<div class="col left">
 					<div class="item item-text">
-						<p>E-mail: <a href="mailto:tiffany@dove-tail.net">tiffany@dove-tail.net</a></p>
+						<p>E-mail: <a href="mailto:hello@dove-tail.net">hello@dove-tail.net</a></p>
 					</div>
+				</div>
+			</div>
+			<div class="col">
+				<div class="item item-text copyright">
+					<p>&copy; <?php date('Y'); ?> Dovetail, LLC. All rights reserved.</p>
 				</div>
 			</div>
 		</section>

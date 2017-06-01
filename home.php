@@ -129,6 +129,11 @@
 					</div>
 				</div>
 			</div>
+			<div class="col">
+				<div class="item item-text copyright">
+					<p>&copy; <?php date('Y'); ?> Dovetail, LLC. All rights reserved.</p>
+				</div>
+			</div>
 		</section>
 		<?php wp_footer(); ?>
 	</body>

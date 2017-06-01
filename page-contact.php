@@ -79,8 +79,13 @@
 				</div>
 				<div class="col left">
 					<div class="item item-text">
-						<p>E-mail: <a href="mailto:tiffany@dove-tail.net">tiffany@dove-tail.net</a></p>
+						<p>E-mail: <a href="mailto:hello@dove-tail.net">tiffany@dove-tail.net</a></p>
 					</div>
+				</div>
+			</div>
+			<div class="col">
+				<div class="item item-text copyright">
+					<p>&copy; <?php date('Y'); ?> Dovetail, LLC. All rights reserved.</p>
 				</div>
 			</div>
 		</section>

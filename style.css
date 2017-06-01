@@ -255,6 +255,11 @@ section#services-list .accordion .accordion-content {
 	margin-bottom: 0;
 }
 
+.copyright {
+	padding-top: 20px;
+	font-size: .75em;
+}
+
 @media only screen and (max-width: 500px) {
 
 	section#home-intro .col-grid .col:first-of-type {
