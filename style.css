@@ -260,6 +260,24 @@ section#services-list .accordion .accordion-content {
 	font-size: .75em;
 }
 
+section#store-container {
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+section#store-container #container {
+	float: right;
+}
+
+section#store-container #sidebar {
+	float: left;
+	text-align: left;
+}
+
+#store-container .woocommerce-loop-product__title {
+	font-family: 'Maven Pro', sans-serif;
+}
+
 @media only screen and (max-width: 500px) {
 
 	section#home-intro .col-grid .col:first-of-type {
